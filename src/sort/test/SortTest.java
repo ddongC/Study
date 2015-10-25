@@ -4,8 +4,8 @@ import sort.QuickSort;
 
 public class SortTest {
 	public static void listPrint(int[] list) {
-		for (int i = 0; i < list.length; i++) {
-			System.out.print(list[i] + " ");
+		for (int item : list) {
+			System.out.print(item + " ");
 		}
 		System.out.println();
 	}
