@@ -12,7 +12,7 @@ package sort;
  */
 public class QuickSort {
 
-	public int getPivot(int[] list, int left, int right) {
+	private int getPivot(int[] list, int left, int right) {
 		int pivot = list[left];
 		int low = left + 1;
 		int high = right;
