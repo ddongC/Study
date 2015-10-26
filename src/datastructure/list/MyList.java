@@ -1,11 +1,11 @@
-package datastructure;
+package datastructure.list;
 
 public class MyList {
-	private Node head;
+	private ListNode head;
 	private int size;
 
 	public MyList() {
-		this.head = new Node(null);
+		this.head = new ListNode(null);
 		this.size = 0;
 	}
 
@@ -14,7 +14,7 @@ public class MyList {
 	}
 
 	public void add(Object obj) {
-		Node next = new Node(obj);
+		ListNode next = new ListNode(obj);
 		next.setNext(head.getNext());
 		head.setNext(next);
 
@@ -23,7 +23,7 @@ public class MyList {
 
 	public int getIndex(Object obj) {
 		int index = 0, count = 0;
-		Node search = head.getNext();
+		ListNode search = head.getNext();
 
 		while (search != null) {
 			if (search.getData().equals(obj)) {
@@ -39,7 +39,7 @@ public class MyList {
 	}
 
 	public void printAllNode() {
-		Node print = head.getNext();
+		ListNode print = head.getNext();
 
 		while (print != null) {
 			System.out.print(print.getData() + " ");

@@ -1,4 +1,4 @@
-package datastructure;
+package datastructure.queue;
 
 public class MyQueue {
 	private QueueNode front, rear;

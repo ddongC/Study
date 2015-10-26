@@ -1,4 +1,4 @@
-package datastructure;
+package datastructure.grape;
 
 public class GrapeNode {
 	private int vertex;

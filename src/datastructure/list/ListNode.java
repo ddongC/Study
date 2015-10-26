@@ -1,10 +1,10 @@
-package datastructure;
+package datastructure.list;
 
-public class Node {
+public class ListNode {
 	private Object data;
-	private Node next;
+	private ListNode next;
 
-	public Node(Object data) {
+	public ListNode(Object data) {
 		this.data = data;
 		this.next = null;
 	}
@@ -17,11 +17,11 @@ public class Node {
 		this.data = data;
 	}
 
-	public Node getNext() {
+	public ListNode getNext() {
 		return next;
 	}
 
-	public void setNext(Node next) {
+	public void setNext(ListNode next) {
 		this.next = next;
 	}
 

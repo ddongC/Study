@@ -1,6 +1,6 @@
 package datastructure.test;
 
-import datastructure.MyList;
+import datastructure.list.MyList;
 
 public class MyListTest {
 	public static void main(String[] args) {

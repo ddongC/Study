@@ -2,8 +2,8 @@ package algorithm.search;
 
 import java.util.Arrays;
 
-import datastructure.GrapeNode;
-import datastructure.MySparseGrape;
+import datastructure.grape.GrapeNode;
+import datastructure.grape.MySparseGrape;
 
 public class DFS {
 	private boolean[] visited;
