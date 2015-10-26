@@ -8,7 +8,7 @@ public class MyQueue {
 		this.rear = null;
 	}
 
-	private boolean isEmpty() {
+	public boolean isEmpty() {
 		return (front == null);
 	}
 
