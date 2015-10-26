@@ -34,4 +34,8 @@ public class MySparseGrape {
 		adjacencyList[u] = node;
 	}
 
+	public GrapeNode[] getAdjacencyList() {
+		return adjacencyList;
+	}
+
 }
