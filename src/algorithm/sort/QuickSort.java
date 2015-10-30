@@ -18,10 +18,10 @@ public class QuickSort {
 		int high = right;
 
 		while (low < high) {
-			while (list[low] < pivot && low < right) {
+			while (list[low] < pivot && low < high) {
 				low++;
 			}
-			while (list[high] > pivot && high > left + 1) {
+			while (list[high] > pivot && high > low) {
 				high--;
 			}
 
